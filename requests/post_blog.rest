@@ -1,0 +1,7 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+    "title": "please fucking worlk",
+    "author": "poor, dumb, fucking loser"
+}
