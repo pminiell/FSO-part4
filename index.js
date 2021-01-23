@@ -12,6 +12,8 @@ const blogSchema = new mongoose.Schema({
   likes: Number
 })
 
+//node
+
 const Blog = mongoose.model('Blog', blogSchema)
 
 const mongoUrl = 'mongodb+srv://mongodb:GlarkOn7@cluster0.iczlc.mongodb.net/fullstackopen?retryWrites=true&w=majority'
